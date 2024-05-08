@@ -11,8 +11,7 @@ export const API_OPTIONS = {
   method: "GET",
   headers: {
     accept: "application/json",
-    Authorization:
-      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjYWI2ZjI3NjkwMDQ2NzI3NjhjYWFmZjdiNGIyOGMzYSIsInN1YiI6IjY2MzVkNTRlNjYxMWI0MDEyZDY3YTQzYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.4eDj3-6IjRfHe9ar3zxKWmhFKVvsiIiM8FhQNy14PeA",
+    Authorization: "addyourtmdbapikeyhere",
   },
 };
 
@@ -32,3 +31,5 @@ export const SUPPORTED_LANGUAGES = [
     name: "Spanish",
   },
 ];
+
+export const OPENAI_KEY = "addyouropenapikeyhere";
